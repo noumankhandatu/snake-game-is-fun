@@ -117,7 +117,7 @@ function App() {
         width={`${canvasX}px`}
         height={`${canvasY}px`}
       />
-      {gameOver && <div className="gameOver">Game Over</div>}
+      {gameOver && <div className="gameOver">You High Bro :|</div>}
       <button onClick={play} className="playButton">
         Play
       </button>
